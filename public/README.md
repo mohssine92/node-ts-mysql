@@ -1,0 +1,1 @@
+* La carpeta puublica el objetivo poder servir  contenido estatico : como sitio web o lo que queramos - build de react etc ..
