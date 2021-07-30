@@ -3,7 +3,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const usuarios_1 = require("../controllers/usuarios");
 const router = express_1.Router();
-// end-points
+/* end-points
+ * recuerada antes de ejecutar controlres hacer todos mdlrs respectivos :
+ * JWT venga , put tiene que venir nombre correo etc ... , ver el ejemplo demongoos , usar helpers para validacion contre db
+ * funcion helper si en  algun llamada debe comunicar varios demonios atraves http antes de salvar y responder con exito
+ * al cliente
+*/
 router.get('/', usuarios_1.getUsuarios);
 router.get('/:id', usuarios_1.getUsuario);
 router.post('/', usuarios_1.postUsuario);

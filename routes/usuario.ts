@@ -7,7 +7,13 @@ const router = Router();
 
 
 
-// end-points
+/* end-points
+ * recuerada antes de ejecutar controlres hacer todos mdlrs respectivos :
+ * JWT venga , put tiene que venir nombre correo etc ... , ver el ejemplo demongoos , usar helpers para validacion contre db 
+ * funcion helper si en  algun llamada debe comunicar varios demonios atraves http antes de salvar y responder con exito 
+ * al cliente 
+*/
+
 router.get('/',       getUsuarios );
 router.get('/:id',    getUsuario );
 router.post('/',      postUsuario )

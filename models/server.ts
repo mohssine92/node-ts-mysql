@@ -40,7 +40,7 @@ class Server {
 
     }
 
-    async dbConnection() { // async becaue has promise
+    async dbConnection() { // async becuase a funcion we use to conect db is promise
 
         try {
             
